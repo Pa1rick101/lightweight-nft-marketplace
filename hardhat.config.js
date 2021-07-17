@@ -3,6 +3,7 @@ const fs = require("fs")
 const privateKey = fs.readFileSync(".secret").toString()
 const projectId = "2e9a6ba4166644cba8ca4f175d05c05c"
 
+
 module.exports = {
   networks: {
     hardhat: {
